@@ -1,0 +1,97 @@
+nav {
+    background-color: hsla(10, 43%, 55%, .5);
+}
+
+nav h1{
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 7px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+ul.social-media {
+    float: right;
+}
+
+header {
+    height: 500px;
+    background-image: url('https://static.wixstatic.com/media/2524bc_8171111099984771b0241180cde41426~mv2.jpg/v1/fill/w_3500,h_858,al_c,q_90/2524bc_8171111099984771b0241180cde41426~mv2.webp');
+    background-size: cover;
+    color: white;
+}
+
+header h1 {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 5rem;
+}
+
+header h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 12px;
+}
+
+header li {
+    list-style: none;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.content {
+    width: 80%;
+    margin: 5px auto;
+}
+
+.content img {
+    float: left;
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.content p {
+    margin-left: 0;
+    padding-top: 30px;
+    font-size: 1.3rem;
+}
+
+.services {
+    margin-top: 45px;
+    height: 400px;
+    background-color: hsla(10, 43%, 55%, .5);
+}
+
+.services h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.services li {
+    position: relative;
+    left: 700px;
+    line-height: 1.7rem;
+}
+
+iframe {
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+}
