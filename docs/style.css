@@ -4,6 +4,8 @@ body {
 
 nav {
     background-color: hsla(10, 43%, 55%, .5);
+    /*position: fixed;
+    width: 100%;*/
 }
 
 nav h1{
@@ -24,6 +26,14 @@ nav li {
 nav a {
     color: white;
     text-decoration: none;
+}
+
+a:hover {
+    transform: scale(1.5);
+}
+
+nav li:hover {
+    transform: scale(1.1);
 }
 
 ul.social-media {
@@ -109,17 +119,18 @@ footer {
     height: 50px;
 }
 
-.contact {
+#contact {
     background-color: hsla(10, 43%, 55%, .5);
     height: 450px;
 }
 
-.contact h2 {
+#contact h2 {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 5px;
 }
 
-.contact form {
+#contact form {
     text-align: center;
 }
+
